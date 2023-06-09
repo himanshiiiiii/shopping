@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:ui_web';
 import 'package:google_fonts/google_fonts.dart';
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
@@ -25,7 +26,7 @@ class _SplashState extends State<Splash> {
           mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-            Text("Hey Himanshi,",style: TextStyle(fontSize: 30,color: Colors.black,fontWeight: FontWeight.w500,decoration: TextDecoration.none),),
+            Text("Hey Himanshi and Ayush,",style: TextStyle(fontSize: 30,color: Colors.black,fontWeight: FontWeight.w500,decoration: TextDecoration.none),),
         Center(child: Text("Wait here,we are fetching data",style: GoogleFonts.poppins(fontSize: 18,color: Colors.grey,)))
     ]
         )
