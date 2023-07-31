@@ -26,7 +26,7 @@ class _SplashState extends State<Splash> {
           mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-            Text("Hey Himanshi and Ayush,",style: TextStyle(fontSize: 30,color: Colors.black,fontWeight: FontWeight.w500,decoration: TextDecoration.none),),
+            Text("Hey Ayush,",style: TextStyle(fontSize: 30,color: Colors.black,fontWeight: FontWeight.w500,decoration: TextDecoration.none),),
         Center(child: Text("Wait here,we are fetching data",style: GoogleFonts.poppins(fontSize: 18,color: Colors.grey,)))
     ]
         )
